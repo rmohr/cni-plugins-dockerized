@@ -2,7 +2,6 @@ language: go
 sudo: required
 
 services:
-  - docker
+ - docker
 
-script:
- - bash do.sh    
+script: bash do.sh
