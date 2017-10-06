@@ -1,0 +1,8 @@
+language: go
+sudo: required
+
+services:
+  - docker
+
+script:
+ - bash do.sh    
